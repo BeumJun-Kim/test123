@@ -1,0 +1,24 @@
+{
+"manifest_version": 2,
+
+"name": "Symantec Extension",
+"version": "10.0",
+"description": "Extension works along with Symantec Information Protection product for protecting data based on company policy",
+
+"icons" : {
+	"16" : "Vontu_16.png",
+	"48" : "Vontu_48.png",
+	"128": "Vontu_128.png"
+	},
+
+"background": {
+	"scripts" : ["background.js"]
+	},
+
+"permissions" : [
+ "nativeMessaging",
+ "management",
+ "activeTab",
+ "tabs"
+ ]
+}
